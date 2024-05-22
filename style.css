@@ -1,3 +1,23 @@
-body {
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: crimson;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: white;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
 
+a {
+  text-decoration: none;
+  color: snow;
+}
+
+a:hover {
+  color: black;
 }
